@@ -1,0 +1,301 @@
+{
+    "questions": [
+        {
+            "question": "After a long week, do you prefer to:",
+            "options": {
+                "E": "Go out and socialize to recharge",
+                "I": "Stay home and relax alone"
+            }
+        }, 
+        {
+            "question": "In a group discussion, do you tend to:",
+            "options": {
+                "E": "Speak up quickly and contribute actively",
+                "I": "Listen more and think before speaking"
+            }
+        }, 
+        {
+            "question": "When attending a party, you are more likely to:",
+            "options": {
+                "E": "Meet and talk to many new people",
+                "I": "Stick with familiar friends or observe"
+            }
+        }, 
+        {
+            "question": "In a team project, you prefer to:",
+            "options": {
+                "E": "Brainstorm out loud with the group",
+                "I": "Think things through on your own first"
+            }
+        }, 
+        {
+            "question": "When learning something new, you:",
+            "options": {
+                "E": "Prefer interactive activities and discussions",
+                "I": "Prefer reading, reflecting, or practicing alone"
+            }
+        }, 
+        {
+            "question": "When solving problems, do you prefer:",
+            "options": {
+                "S": "Practical solutions based on experience",
+                "N": "Exploring new and abstract ideas"
+            }
+        }, 
+        {
+            "question": "Do you trust:",
+            "options": {
+                "S": "Facts and direct experience",
+                "N": "Your instincts and patterns you notice"
+            }
+        },
+        {
+            "question": "When following instructions, do you prefer:",
+            "options": {
+                "S": "Clear, step-by-step guidance",
+                "N": "A general idea and freedom to figure it out"
+            }
+        },
+        {
+            "question": "When recalling past experiences, you focus on:",
+            "options": {
+                "S": "Specific details and facts",
+                "N": "The overall impression or deeper meaning"
+            }
+        },
+        {
+            "question": "Do you enjoy stories that are:",
+            "options": {
+                "S": "Realistic and grounded in reality",
+                "N": "Imaginative, symbolic, or futuristicg"
+            }
+        },
+        {
+            "question": "When making decisions, do you prioritize:",
+            "options": {
+                "T": "Logic and fairness",
+                "F": "Personal values and how people feel"
+            }
+        },
+        {
+            "question": "At work, do you prefer feedback that is:",
+            "options": {
+                "T": "Direct and objective",
+                "F": "Considerate and supportive"
+            }
+        },
+        {
+            "question": "When handling conflict, you:",
+            "options": {
+                "T": "Stay objective and focus on problem-solving",
+                "F": "Consider how everyone feels first"
+            }
+        },
+        {
+            "question": "Which is more important in a debate?",
+            "options": {
+                "T": "Being logical and fact-based",
+                "F": "Understanding emotions and perspectives"
+            }
+        },
+        {
+            "question": "When giving advice, you tend to:",
+            "options": {
+                "T": "Offer practical and rational solutions",
+                "F": "Provide emotional support and encouragement"
+            }
+        },
+        {
+            "question": "How do you plan your day?",
+            "options": {
+                "J": "With a schedule and clear goals",
+                "P": "Flexibly, going with the flow"
+            }
+        },
+        {
+            "question": "Do you feel more comfortable when:",
+            "options": {
+                "J": "Things are decided in advance",
+                "P": "You have room for last-minute changes"
+            }
+        },
+        {
+            "question": "How do you approach deadlines?",
+            "options": {
+                "J": "Plan ahead and work steadily",
+                "P": "Work last-minute with bursts of energy"
+            }
+        },
+        {
+            "question": "How do you pack for a trip?",
+            "options": {
+                "J": "Make a checklist and prepare in advance",
+                "P": "Pack quickly and figure things out as you go"
+            }
+        },
+        {
+            "question": "When making plans with friends, you prefer:",
+            "options": {
+                "J": "Setting a fixed time and schedule",
+                "P": "Keeping things open-ended and spontaneous"
+            }
+        }
+    ],
+    "results": {
+        "ISTJ": {
+            "name": "The Inspector",
+            "description": [
+                "ISTJ (introversion, sensing, thinking, judgment) is a four-letter code representing one of the 16 personality types found on the Myers-Briggs Type Indicator (MBTI). People with an ISTJ personality type tend to be reserved, practical and quiet. They enjoy order and organization in all areas of their lives, including home, work, family, and projects.", 
+                "ISTJs value loyalty in themselves and others, and they emphasize traditions. Although they have a reputation for being blunt, they are also known for being nice, loyal, and responsible.", 
+                "The ISTJ personality type is not rare. It is one of the most common, accounting for around 11 to 14% of the population. It is more common among men, with 14 to 19% of men having this type compared to seven to 10% of women."
+            ],
+            "characteristics": ["calm", "concerned with rules", "decisive", "honest", "independent", "insensitive", "level-headed", "stubborn", "straight-forward", "reserved", "responsible"],
+            "strengths": ["detail-oriented", "realistic", "present-focused", "observant", "logical and practical", "orderly and organized"],
+            "weaknesses": ["judgemental", "subjective", "tends to blame others", "insensitive"]
+        },
+        "ISTP": {
+            "name": "The Crafter",
+            "description": [
+                "ISTP (introverted, sensing, thinking, perceiving) is one of the 16 personality types identified by the Myers-Briggs Type Indicator (MBTI). People with ISTP personalities enjoy having time to think alone and are fiercely independent. ISTPs also love action, new experiences, hands-on activities, and the freedom to work at their own pace.",
+                "ISTPs enjoy taking things apart just to see how they work. They are logical and rational but more interested in practical applications than abstract ideas. They love doing new things and can become bored with routines rather quickly.",
+                "The ISTP is a relatively rare personality type. According to the Center for Applications of Psychological Type (CAPT), ISTPs comprise about 4% to 6% of the population. They note that this type is more common in men (around 6% to 9%) than in women (2% to 3%)."
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "ISFJ": {
+            "name": "The Protector",
+            "description": [
+                "ISFJ is one of the 16 personality types identified on the Myers-Briggs Type Indicator (MBTI), the personality test developed by Isabel Myers and her mother, Katherine Briggs, based on the theories of psychoanalyst Carl Jung.1 ISFJ stands for introverted, sensing, feeling, judging.",
+                "This personality type is given the nickname The Protector or The Defender, and for good reason.2 People who have ISFJ personalities are known for being warm-hearted, responsible, and reserved. The ENTP personality type is the opposite.",
+                "This personality type is not rare—it is actually one of the more common types. ISFJs make up about 9% to 14% of the population.",
+                "This type may occur more frequently because ISFJs are capable of succeeding in independent and social situations. Their adaptability means they can thrive in many settings."
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "ISFP": {
+            "name": "The Artist",
+            "description": [
+                "We all have unique personalities, but according to the Myers-Briggs Type Indicator, we tend to fall into one of 16 different types. The ISFP personality type, for example, is an acronym that means you tend to be introverted, sensing, feeling, and perceiving. If you have this sort of personality, you probably tend to be a considerat friend who is great with details, although you sometimes have a hard time seeing the big picture.",
+                "People with an ISFP personality—the Artists—have introverted, observant, feeling, and prospecting personality traits. Unlike extroverts, who gain energy from interacting with others, introverts must expend energy around others",
+                "While ISFPs are introverts, that doesn't mean they're closed off. If you have this personality type, people probably think you are warm and approachable, so it might even seem like you're an extraverted introvert sometimes. You probably love having a quiet evening alone over a good book, but you also sometimes enjoy meeting new people and embracing new experiences. While you're great at noticing the little things other people miss, you have a tendency to avoid conflict, which means you might not speak up when something is bothering you. No matter how these traits appear in your unique personality, your type can have a big impact on your relationships, career, and interactions with others."
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "INFJ": {
+            "name": "The Advocate",
+            "description": [
+                "INFJ is one of the 16 personality types identified by the Myers-Briggs Type Indicator (MBTI). Scoring as an INFJ means that your personality type is best described as Introverted, Intuitive, Feeling, and Judging. Sometimes referred to as the Advocate or the Idealist, people with this personality type often feel misunderstood.",
+                "Perhaps that's because INFJ is the rarest MBTI personality type, making up only 1% to 3% of the U.S. population.1 Or maybe it's because they're walking, talking contradictions. INFJs are easy-going perfectionists. They're both logical and emotional, creative and analytical.",
+                "INFJ-A vs. INFJ-T: An INFJ-A is referred to as an Assertive Advocate and often displays confidence with a relaxed demeanor. An INFJ-T is known as a Turbulent Advocate and tends to be less confident and more easily stressed."
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "INFP": {
+            "name": "The Mediator",
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "INTJ": {
+            "name": "The Architect",
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "INTP": {
+            "name": "The Thinker", 
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "ESTP": {
+            "name": "The Persuader",
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "ESTJ": {
+            "name": "The Director",
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "ESFP": {
+            "name": "The Performer",
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "ESFJ": {
+            "name": "The Caregiver",
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "ENFP": {
+            "name": "The Champion",
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "ENFJ": {
+            "name": "The Giver",
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "ENTP": {
+            "name": "The Debater",
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        },
+        "ENTJ": {
+            "name": "The Commander",
+            "description": [
+
+            ],
+            "characteristics": [],
+            "strengths": [],
+            "weaknesses": []
+        }
+    }
+}
