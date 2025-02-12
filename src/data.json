@@ -142,6 +142,7 @@
         }
     ],
     "results": {
+
         "ISTJ": {
             "name": "The Inspector",
             "description": [
@@ -151,8 +152,31 @@
             ],
             "characteristics": ["calm", "concerned with rules", "decisive", "honest", "independent", "insensitive", "level-headed", "stubborn", "straight-forward", "reserved", "responsible"],
             "strengths": ["detail-oriented", "realistic", "present-focused", "observant", "logical and practical", "orderly and organized"],
-            "weaknesses": ["judgemental", "subjective", "tends to blame others", "insensitive"]
+            "weaknesses": ["judgemental", "subjective", "tends to blame others", "insensitive"],
+            "cognitive": {
+                "Dominant: Introverted Sensing": [
+                    "Introverted sensors are focused on the present moment, taking in an abundance of information about their surroundings.", 
+                    "They also have vivid memories of the past and rely on the memories of these experiences to form expectations for the future."
+                ],
+                "Auxiliary: Extraverted Thinking": [
+                    "ISTJs are logical and efficient. They enjoy looking for rational explanations for events.",
+                    "They prefer to focus on the details rather than thinking about abstract information.",
+                    "Being efficient and productive is important for people with this personality type. They appreciate knowledge that has immediate, practical applications.",
+                    "ISTJs make decisions based on logic and objective data rather than personal feelings."
+                ],
+                "Tertiary: Introverted Feeling": [
+                    "As they make judgments, ISTJs often make personal interpretations based on their internal set of values.",
+                    "This is often described as an instinct or gut feeling about a situation. ISTJ might make a decision based on logic, only to have this feeling kick in telling them to trust their feelings rather than just the facts."
+                ],
+                "Inferior: Extraverted Intuition": [
+                    "This aspect of personality enjoys new ideas and experiences.",
+                    "This is the weakest part of the ISTJs personality, but developing this function can sometimes lead to more balance."
+                ]
+            },
+            "relationships": "ISTJs prefer spending time alone or with small groups of close friends. People with this personality type are usually very loyal and devoted to family and friends but may struggle to understand their own emotions and the feelings of others. They can be quite reserved and sometimes fail to pick up on the emotional signals given by other people. However, once they are close to a person and develop an understanding of that person's feelings and needs, they will expend a great deal of effort toward supporting those needs.",
+            "career": "Because of this need for order, they tend to do better in learning and work environments with clearly defined schedules, clear-cut assignments, and a strong focus on a task When learning new things, ISTJs do best when the material is something they view as useful and having real-world applications. Concrete, factual information appeals to ISTJs, while theoretical and abstract information has little value unless they can see some ]practical use for it. While they may exert tremendous energy into projects they see as valuable, they will avoid wasting time and energy on things that they view as useless or unpractical. ISTJs tend to do well in careers that require order, structure, and perseverance. Jobs that involve dealing with concrete facts and figures (accounting, library science, computer programming, etc.) are all good options. Jobs that require accuracy, respect for rules and stability often appeal to those with an ISTJ personality."
         },
+
         "ISTP": {
             "name": "The Crafter",
             "description": [
@@ -160,10 +184,34 @@
                 "ISTPs enjoy taking things apart just to see how they work. They are logical and rational but more interested in practical applications than abstract ideas. They love doing new things and can become bored with routines rather quickly.",
                 "The ISTP is a relatively rare personality type. According to the Center for Applications of Psychological Type (CAPT), ISTPs comprise about 4% to 6% of the population. They note that this type is more common in men (around 6% to 9%) than in women (2% to 3%)."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": []
+            "characteristics": ["Goal-directed", "Open to new experiences", "Objective", "Reserved but even-tempered", "Emotionally detached", "Level-headed"],
+            "strengths": ["Logical", "Learns by experience", "Action-oriented", "Realistic and practical", "Enjoys new things", "Self-confident and easygoing"],
+            "weaknesses": ["Difficult to get to know", "Insensitive", "Grows bored easily", "Risk-taker", "Does not like commitment"],
+            "cognitive": {
+                "Dominant: Introverted Thinking": [
+                    "ISTPs spend a great deal of time thinking and processing information in their heads. This means they do not spend much time expressing themselves verbally, so they are often known as the quiet ones.",
+                    "It may seem like an ISTPs' approach to decision-making is very haphazard, yet their actions are based upon careful observation and thought.",
+                    "They deal with the world rationally and logically, so they are often focused on practical and useful things.",
+                    "Because they are so logical, ISTPs are good at looking at situations objectively and avoiding subjective or emotional factors when making decisions. People with this personality type can often be difficult to get to know because they focus so much on action and results rather than emotions."
+                ],
+                "Auxiliary: Extraverted Sensing": [
+                    "ISTPs prefer to focus on the present and take on things one day at a time. They often avoid making long-term commitments and would rather focus on the here and now rather than think about future plans and possibilities.",
+                    "ISTPs tend to be very logical and enjoy learning and understanding how things operate. They might take apart a mechanical device just to see how it works.",
+                    "While they are good at understanding abstract and theoretical information, they are not particularly interested in such things unless they can see some type of practical application."
+                ],
+                "Tertiary: Introverted Intuition": [
+                    "This function often operates largely unconsciously in the ISTP personality. While they are not usually interested in abstract ideas, they may take such concepts and try to turn them into action or practical solutions.",
+                    "It is this function that is behind the gut feelings that ISTPs sometimes experience when making a decision. By synthesizing information brought in by the dominant and auxiliary functions, this aspect of personality may be responsible for sudden aha moments of insight."
+                ],
+                "Inferior: Extraverted Feeling": [
+                    "This aspect of personality tends to operate in the background of the ISTP personality, but it can become more apparent during times of stress.",
+                    "During highly charged situations, ISTPs can sometimes lash out in sudden outbursts of emotion. They often ignore their own feelings until things reach a boiling-over point, which can lead to displaying emotions in ways that can seem inappropriate."
+                ]
+            },
+            "relationships": "ISTPs are introverts who tend to be quiet and reserved. They thrive on new experiences and dislike strict routines. In relationships, they are highly independent and do not like to feel controlled. Making commitments is difficult for the ISTP, but will put a lot of effort into relationships that hold their interest. They do not often share their emotions with other people. While they enjoy hearing what other people think, they frequently keep their own opinions to themselves. For these reasons, people sometimes describe ISTPs as difficult to get to know or awkward. They often find friends who enjoy similar hobbies and enjoy spending time with these friends as they pursue these activities",
+            "career": "Because ISTPs are introverted, they often do well in jobs that require working alone. ISTPs tend to dislike too much structure and do well in careers where they have a lot of freedom and autonomy. Because they are very logical, they often enjoy work that involves reasoning and hands-on experience. In particular, ISTPs like doing things that have practical, real-world applications."
         },
+
         "ISFJ": {
             "name": "The Protector",
             "description": [
@@ -172,10 +220,38 @@
                 "This personality type is not rare—it is actually one of the more common types. ISFJs make up about 9% to 14% of the population.",
                 "This type may occur more frequently because ISFJs are capable of succeeding in independent and social situations. Their adaptability means they can thrive in many settings."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": []
+            "characteristics": ["Caring", "Compassionate", "Dependable", "Industrious", "Kind-hearted", "Loyal", "Organized", "Practical", "Protective", "Sensitive", "Warm"],
+            "strengths": ["Reliable", "Practical", "Sensitive", "Eye for detail"],
+            "weaknesses": ["Dislikes abstract concepts", "Avoids confrontation", "Dislikes change", "Neglects own needs"],
+            "cognitive": {
+                "Dominant: Introverted Sensing": [
+                    "This function leads the introverted sensing types to focus on details and facts.",
+                    "ISFJs prefer concrete information rather than abstract theories.",
+                    "They are highly attuned to the immediate environment and firmly grounded in reality.",
+                    "Because of this tendency to focus on and protect what is familiar, ISFJs are often seen as highly traditional.",
+                    "When making decisions, ISFJs compare their vivid recall of past experiences in order to predict the outcome of future choices and events."
+                ],
+                "Auxiliary: Extraverted Feeling": [
+                    "ISFJs place a great emphasis on personal considerations.",
+                    "Extraverted feelers are focused on developing social harmony and connection.",
+                    "This is accomplished through behaviors viewed as socially appropriate or beneficial, such as being polite, kind, considerate, and helpful.",
+                    "ISFJs try to fulfill the wants and needs of other people, sometimes even sacrificing their own desires to ensure that other people are happy."
+                ],
+                "Tertiary: Introverted Thinking": [
+                    "ISFJs are planners and tend to be very well-organized.",
+                    "They utilize logic to understand how the world works.",
+                    "As they take in new information and experiences, they look for connections and commonalities in order to find patterns.",
+                    "Rather than simply trying to understand a small part of something, they want to see how things fit together and function as a whole."
+                ],
+                "Inferior: Extraverted Intuition": [
+                    "While ISFJs tend to focus on the present and concrete facts, this largely unconscious function can help balance the ISFJ personality by allowing the individual to consider other possibilities.",
+                    "Taking in facts and then exploring the what-ifs can lead to new insights about problems."
+                ]
+            },
+            "relationships": "Because they are quiet, people sometimes misinterpret this as standoffish behavior. However, ISFJs are compassionate and caring toward others, often working to secure the safety and well-being of other people without asking for thanks or anything in return. Because they are hard-working, dependable, and rarely seek accolades for their own accomplishments, ISFJs are sometimes taken for granted by those around them. In some cases, people might even try to take advantage of this reliability. ISFJs tend to have a small group of very close friends. While they may be quiet and reserved around people they don't know well, they are more likely to let loose around these close confidants. They place a high value on a few close friendships and are always willing to support and care for the people in their inner circle.",
+            "career": "ISFJs have many characteristics that make them well-suited to particular careers. Because they are so attuned to the feelings of others, jobs in mental health or the healthcare industry are a good fit. They are also meticulous and orderly, making them suited to jobs that involve planning, structure, or attention to detail. Their commitment to their work, reliability, and ability to work independently make them attractive to various employers. Because of their solid people skills and desire to create order, they often do well in management or administrative roles. They excel at developing plans and helping others work together to achieve a common goal."
         },
+
         "ISFP": {
             "name": "The Artist",
             "description": [
@@ -184,9 +260,32 @@
                 "While ISFPs are introverts, that doesn't mean they're closed off. If you have this personality type, people probably think you are warm and approachable, so it might even seem like you're an extraverted introvert sometimes. You probably love having a quiet evening alone over a good book, but you also sometimes enjoy meeting new people and embracing new experiences. While you're great at noticing the little things other people miss, you have a tendency to avoid conflict, which means you might not speak up when something is bothering you. No matter how these traits appear in your unique personality, your type can have a big impact on your relationships, career, and interactions with others."
             ],
             "characteristics": [],
-            "strengths": [],
-            "weaknesses": []
+            "strengths": ["A peaceful, caring, and considerate nature", "Great attention to detail", "Focus on the present", "Diligence", "Practicality"],
+            "weaknesses": ["Indecisiveness", "Trouble with abstract ideas", "Avoidance of conflict", "Introversion"],
+            "cognitive": {
+                "Dominant: Introverted Feeling": [
+                    "ISFPs care more about personal concerns rather than objective, logical information. Feelings matter more than facts.",
+                    "People with this personality type deal with information and experiences based on how they feel about them. You're more likely to trust your emotions than what your logical mind is telling you.",
+                    "ISFPs have their value system and create spontaneous judgments based on how things fit with their ideas. This can be great at times, because it means you have a strong internal moral compass. It can be a challenge, however, if you let confirmation biases run the show and don't consider other information that might sway your opinions."
+                ],
+                "Auxiliary: Extraverted Sensing": [
+                    "People with ISFP personalities are very in tune with the world around them. That means you know what's going on around you. You notice things, no matter how small. This great attention to detail also means that you probably appreciate things like aesthetics and fine art.",
+                    "ISFPs are always living in the moment. Awareness is your superpower, and you are always ready to jump into action and respond to even small changes. Others might overlook these things, but you have a natural knack for noticing the small things others miss.",
+                    "Being attuned to the environment has other perks, too, including a vivid memory. You're able to visualize the past in rich detail. Sights, sounds, and smells trigger powerful memories associated with those senses."
+                ],
+                "Tertiary: Introverted Intuition": [
+                    "The tertiary function tends to run in the background, feeding off of the extraverted sensing function. It offers support, but it's much less developed than your dominant and auxiliary functions.",
+                    "As ISFPs take in details about the world, they often develop gut feelings about events and situations. That means that while you generally do not like abstract concepts or ideas, your introverted intuition function means that you'll sometimes have important epiphanies."
+                ],
+                "Inferior: Extraverted Thinking": [
+                    "Your inferior function is the opposite of your dominant function, meaning it's the least developed part of your personality. Because of this, it can be one of your biggest weaknesses. For ISPs, this often emerges as a difficulty when it comes to organization, although they may use this function more prominently in certain situations.",
+                    "This function is all about looking for the most efficient way to do something. As an ISFP, you might become focused on being very precise about the details and finding the most effective way to express an idea."
+                ]
+            },
+            "relationships": "",
+            "career": []
         },
+
         "INFJ": {
             "name": "The Advocate",
             "description": [
@@ -194,10 +293,35 @@
                 "Perhaps that's because INFJ is the rarest MBTI personality type, making up only 1% to 3% of the U.S. population.1 Or maybe it's because they're walking, talking contradictions. INFJs are easy-going perfectionists. They're both logical and emotional, creative and analytical.",
                 "INFJ-A vs. INFJ-T: An INFJ-A is referred to as an Assertive Advocate and often displays confidence with a relaxed demeanor. An INFJ-T is known as a Turbulent Advocate and tends to be less confident and more easily stressed."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": []
+            "characteristics": ["Compassionate", "Helper", "Idealist", "Organized", "Both emotional and logical"],
+            "strengths": ["Sensitive to the needs of others", "Reserved", "Highly creative and artistic", "Focused on the future", "Values close, deep relationships", "Enjoys thinking about the meaning of life", "Idealistic"],
+            "weaknesses": ["Can be overly sensitive", "Sometimes difficult to get to know", "Can have overly high expectations", "Stubborn", "Dislikes confrontation"],
+            "cognitive": {
+                "Dominant: Introverted Intuition": [
+                    "INFJs tend to be highly focused on their internal insights.",
+                    "Once they have formed an intuition about something, INFJs tend to stick to it very tightly, often to the point of being single-minded in their focus.",
+                    "INFJs are sometimes viewed as stubborn and unyielding."
+                ],
+                "Auxiliary: Extraverted Feeling": [
+                    "INFJs are highly aware of what other people are feeling but are sometimes less aware of their own emotions.",
+                    "INFJs sometimes struggle to say no to other people's requests. They are so attuned to what other people are feeling that they fear causing disappointment or hurt feelings."
+                ],
+                "Tertiary: Introverted Thinking": [
+                    "INFJs make decisions based on ideas and theories that they form based on their own insights.",
+                    "INFJs rely primarily on their introverted intuition and extroverted feeling when making decisions, particularly when they are around other people. When they are alone, however, people with this personality type may rely more on their introverted thinking.",
+                    "In stressful situations, an INFJ might try to rely on emotions when making decisions, especially if it means pleasing other people. Under less stressful conditions, an INFJ is more likely to rely more on their intuition."
+                ],
+                "Inferior: Extraverted Sensing": [
+                    "While this is a less developed and largely unconscious aspect of the INFJ, it does have an impact on personality.",
+                    "This aspect of personality helps INFJs pay attention to the world around them and stay aware of their surroundings.",
+                    "Extroverted sensing also helps INFJs live in the present moment rather than simply worrying about the future.",
+                    "This aspect of personality also helps INFJs appreciate physical activities such as hiking and dancing."
+                ]
+            },
+            "relationships": "INFJs also have a talent for language and are usually quite good at expressing themselves. They have a vivid inner life but are often hesitant to share this with others, except for those closest to them. While they are quiet and sensitive, INFJs can also be good leaders. Even when they don't take on overt leadership roles, they often act as quiet influencers behind the scenes. INFJs are driven by their strong values and seek out meaning in all areas of their lives including relationships and work. People with this type of personality are often described as deep and complex. INFJs may not have a huge circle of acquaintances, but their close friendships tend to be remarkably close and long-lasting. INFJs are interested in helping others and making the world a better place. They tend to be excellent listeners and are good at interacting with people which whom they are emotionally close and connected. While they care deeply about others, INFJs tend to be introverted and only willing to share their "true selves" with a select few. After being in social situations, INFJs need time to themselves to "recharge."",
+            "career": "INFJs do well in careers where they can express their creativity. Because people with INFJ personalities have such deeply held convictions and values, they do particularly well in jobs that support these principles. INFJs often do best in careers that mix their need for creativity with their desire to make meaningful changes in the world. INFJs are usually high achievers and excel in academics and the workplace. They can be perfectionists at times and put a great deal of effort into their work. Co-workers tend to feel that INFJs are hardworking, positive, and easy to get along with. Because they are introverted, however, they may find that they need to retreat at times to recharge. In managerial roles, INFJs can sometimes struggle to exert authority. They tend to lead with sensitivity and are good at helping subordinates feel appreciated in the workplace. Jobs that require a great deal of routine or adherence to strict rules can be difficult for INFJs."
         },
+
         "INFP": {
             "name": "The Mediator",
             "description": [
@@ -205,8 +329,14 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         },
+
         "INTJ": {
             "name": "The Architect",
             "description": [
@@ -214,8 +344,14 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         },
+
         "INTP": {
             "name": "The Thinker", 
             "description": [
@@ -223,8 +359,14 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         },
+
         "ESTP": {
             "name": "The Persuader",
             "description": [
@@ -232,8 +374,14 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         },
+
         "ESTJ": {
             "name": "The Director",
             "description": [
@@ -241,8 +389,14 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         },
+
         "ESFP": {
             "name": "The Performer",
             "description": [
@@ -250,8 +404,14 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         },
+
         "ESFJ": {
             "name": "The Caregiver",
             "description": [
@@ -259,8 +419,14 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         },
+
         "ENFP": {
             "name": "The Champion",
             "description": [
@@ -268,8 +434,14 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         },
+
         "ENFJ": {
             "name": "The Giver",
             "description": [
@@ -277,8 +449,14 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         },
+
         "ENTP": {
             "name": "The Debater",
             "description": [
@@ -286,8 +464,14 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         },
+
         "ENTJ": {
             "name": "The Commander",
             "description": [
@@ -295,7 +479,12 @@
             ],
             "characteristics": [],
             "strengths": [],
-            "weaknesses": []
+            "weaknesses": [],
+            "cognitive": {
+
+            },
+            "relationships": "",
+            "career": []
         }
     }
 }
