@@ -9,6 +9,7 @@ export function Quiz({ scores, data }) {
     const [questionIndex, setQuestionIndex] = useState(0);
     const [selectedValue, setSelectedValue] = useState(null);
     const [isLastQuestion, setIsLastQuestion] = useState(false);
+    const [percentage, setPercentage] = useState(0);
 
     const navigate = useNavigate();
 
@@ -34,8 +35,8 @@ export function Quiz({ scores, data }) {
 
     function handleNextQuestion(e) {
         e.preventDefault();
+        setPercentage(percentage + 5);
         handleScoring(e);
-        // TODO: fix last question scoring
 
         if (questionIndex < questions.length - 1) {
             setQuestionIndex(questionIndex + 1);
@@ -44,33 +45,39 @@ export function Quiz({ scores, data }) {
         if (questionIndex === questions.length - 2) {
             setIsLastQuestion(true);
         } 
+        console.log(scores);
     }
 
     function handleSubmit(e) {
         e.preventDefault();
+        handleScoring(e);
         navigate('/results');
     }
 
-    console.log(scores);
-
     return (
-        <form className="quizContainer">
-            <fieldset>
-                <legend className='pb-5'><strong>Question {questionIndex + 1}:</strong> {questions[questionIndex].question}</legend>
-                
-                <div className='pb-4 pt-5 px-5 mx-5 d-flex justify-content-center'>
-                    <input type="range" id="slider" name="slider" min="-2" max="2" className="w-100" onChange={handleChange}/>
-                </div>
+        <div>
+            <form className="quizContainer">
+                <fieldset>
+                    <legend className='pb-5'><strong>Question {questionIndex + 1}:</strong> {questions[questionIndex].question}</legend>
+                    
+                    <div className='pb-4 pt-5 px-5 mx-5 d-flex justify-content-center'>
+                        <input type="range" id="slider" name="slider" min="-2" max="2" className="w-100" onChange={handleChange}/>
+                    </div>
 
-                <label htmlFor="slider" className='mx-3 pb-5 d-flex justify-content-between'>
-                    <p>{Object.values(questions[questionIndex].options)[0]}</p>
-                    <p>{Object.values(questions[questionIndex].options)[1]}</p>
-                </label>
+                    <label htmlFor="slider" className='mx-3 pb-5 d-flex justify-content-between'>
+                        <p>{Object.values(questions[questionIndex].options)[0]}</p>
+                        <p>{Object.values(questions[questionIndex].options)[1]}</p>
+                    </label>
 
-                <button onClick={isLastQuestion ? handleSubmit : handleNextQuestion} className="d-block m-auto mt-5 px-5 btn btn-primary nextButton">
-                    {isLastQuestion ? "Submit" : "Next Question"}
-                </button>
-            </fieldset>
-        </form>
+                    <button onClick={isLastQuestion ? handleSubmit : handleNextQuestion} className="d-block m-auto mt-5 px-5 nextButton">
+                        {isLastQuestion ? "Submit" : "Next Question"}
+                    </button>
+                </fieldset>
+            </form>
+            <div className="progressBar">
+                <div className="progress" style={{width: `${percentage}%`}}></div>
+            </div>
+            <p className="text-center">{percentage}% completed</p>
+        </div>
     )
 }

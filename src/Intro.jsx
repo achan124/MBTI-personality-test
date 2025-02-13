@@ -19,9 +19,9 @@ export function Intro() {
                     <li><strong>Thinking (T) vs. Feeling (F): </strong>Do you make decisions based on logic and objectivity or prioritize emotions and values?</li>
                     <li><strong>Judging (J) vs. Perceiving (P): </strong>Do you prefer structure and planning or flexibility and spontaneity?</li>
                 </ul>
-                <p>Note: While the MBTI is extremely popular, it has also been the source of considerable criticism due in part to its poor validity and reliability.2 If you do take the MBTI, use caution when considering the meaning of your results.</p>
+                <p>Note: While the MBTI is extremely popular, it has also been the source of considerable criticism due in part to its poor validity and reliability. If you do take the MBTI, use caution when considering the meaning of your results.</p>
                 <p>Answer each question honestly based on your natural preferences. There are no right or wrong answers—this quiz is about understanding your unique personality! Once you've completed it, you’ll discover which of the 16 personality types best fits you.</p>
-                <button onClick={handleStartButton} className="d-block m-auto mt-5 px-5 btn btn-primary">Start</button>
+                <button onClick={handleStartButton} className="d-block m-auto mt-5 px-5">Start</button>
             </div>
         </div>
     )

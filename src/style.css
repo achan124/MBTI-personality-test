@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(226, 226, 226);
+    background-color: #f6f3e7;
 }
 
 .quizContainer {
@@ -13,12 +13,44 @@ body {
     border-radius: 15px;
 }
 
-p {
-    font-size: 20px;
+.progressBar {
+    width: 500px;
+    height: 15px;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 25px;
+    background-color: #e2dfd5;
+}
+
+.progress {
+    width: 75%;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #c7d756;
+}
+
+button {
+    background-color: #f5c360;
+    border-radius: 25px;
+    padding: 6px;
 }
 
 label {
     padding-left: 16px;
+}
+
+h2 {
+    margin-top: 50px;
+    color: #a1af38;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.resultTitle {
+    color: #f5c360;
+    text-shadow: 1px 1px 1px #5d5d5d;   
 }
 
 /* .sliderInput {

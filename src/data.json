@@ -282,8 +282,8 @@
                     "This function is all about looking for the most efficient way to do something. As an ISFP, you might become focused on being very precise about the details and finding the most effective way to express an idea."
                 ]
             },
-            "relationships": "",
-            "career": []
+            "relationships": "While you may have the classic ISFP traits that make you warm and engaging, you're still an introvert. And that means that, for the most part, you tend to have a reserved and quiet side. This is most true when you are around people you don't know well. You might be outgoing and gregarious around your close friends, but a lot more closed off when you are in a large crowd of strangers. After a day of 'extroverting' at work, introverts usually need some time alone to recharge their mental batteries. ISFPs are also quite private, so that means you sometimes keep your true feelings to yourself. You might hold back your thoughts, feelings, and opinions with other people in your life, even your romantic partners. ISFPs have strong values but are not concerned with trying to convince other people to share them. They care deeply about other people, particularly their closest friends and family. They are action-oriented and tend to show their care and concern through action rather than discussing feelings or expressing sentiments.",
+            "career": "Working a job that doesn't vibe with your personality can be disheartening, so it pays to think about which jobs are aligned to your ISFP traits. For example, people with ISFP personalities love animals and have a strong appreciation for nature. If that's you, then you might want to seek out jobs or hobbies that put you in contact with the outdoors and with animals. Because ISFPs prefer to focus on the present, you'll also probably prefer a job that focuses on solving practical, real-world problems. But you also don't like to feel hemmed in, so consider options that give you a lot of personal freedom and autonomy."
         },
 
         "INFJ": {
@@ -318,53 +318,101 @@
                     "This aspect of personality also helps INFJs appreciate physical activities such as hiking and dancing."
                 ]
             },
-            "relationships": "INFJs also have a talent for language and are usually quite good at expressing themselves. They have a vivid inner life but are often hesitant to share this with others, except for those closest to them. While they are quiet and sensitive, INFJs can also be good leaders. Even when they don't take on overt leadership roles, they often act as quiet influencers behind the scenes. INFJs are driven by their strong values and seek out meaning in all areas of their lives including relationships and work. People with this type of personality are often described as deep and complex. INFJs may not have a huge circle of acquaintances, but their close friendships tend to be remarkably close and long-lasting. INFJs are interested in helping others and making the world a better place. They tend to be excellent listeners and are good at interacting with people which whom they are emotionally close and connected. While they care deeply about others, INFJs tend to be introverted and only willing to share their "true selves" with a select few. After being in social situations, INFJs need time to themselves to "recharge."",
+            "relationships": "INFJs also have a talent for language and are usually quite good at expressing themselves. They have a vivid inner life but are often hesitant to share this with others, except for those closest to them. While they are quiet and sensitive, INFJs can also be good leaders. Even when they don't take on overt leadership roles, they often act as quiet influencers behind the scenes. INFJs are driven by their strong values and seek out meaning in all areas of their lives including relationships and work. People with this type of personality are often described as deep and complex. INFJs may not have a huge circle of acquaintances, but their close friendships tend to be remarkably close and long-lasting. INFJs are interested in helping others and making the world a better place. They tend to be excellent listeners and are good at interacting with people which whom they are emotionally close and connected. While they care deeply about others, INFJs tend to be introverted and only willing to share their true selves with a select few. After being in social situations, INFJs need time to themselves to recharge.",
             "career": "INFJs do well in careers where they can express their creativity. Because people with INFJ personalities have such deeply held convictions and values, they do particularly well in jobs that support these principles. INFJs often do best in careers that mix their need for creativity with their desire to make meaningful changes in the world. INFJs are usually high achievers and excel in academics and the workplace. They can be perfectionists at times and put a great deal of effort into their work. Co-workers tend to feel that INFJs are hardworking, positive, and easy to get along with. Because they are introverted, however, they may find that they need to retreat at times to recharge. In managerial roles, INFJs can sometimes struggle to exert authority. They tend to lead with sensitivity and are good at helping subordinates feel appreciated in the workplace. Jobs that require a great deal of routine or adherence to strict rules can be difficult for INFJs."
         },
 
         "INFP": {
             "name": "The Mediator",
             "description": [
-
+                "INFP is one of the 16 distinct personality types identified by the Myers-Briggs Type Indicator (MBTI), one of the most widely used personality tests in the world. The four-letter acronym stands for different aspects of personality: Introverted, Intuitive, Feeling, and Perceiving.",
+                "The INFP personality type is often described as an idealist or mediator personality. INFPs tend to be introverted, idealistic, creative, and driven by high values. If you have this personality type, you are someone who cares a lot about making the world a better place. While you often come across as reserved, you're driven by your empathy, values, and concern for others."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": [],
+            "characteristics": ["Introverted", "Reserved", "Easily drained (socially)", "Close-knit friendships", "Intuitive", "Big-picture thinker", "Selectively meticulous"],
+            "strengths": ["Loyal and devoted", "Sensitive to feelings", "Caring and interested in others", "Works well alone", "Value close relationships", "Good at seeing the big picture"],
+            "weaknesses": ["Can be overly idealistic", "Tends to take everything personally", "Difficult to get to know", "Sometimes loses sight of the little things", "Overlooks details"],
             "cognitive": {
-
+                "Dominant: Introverted Feeling (Fi)": [
+                    "INFPs experience a great depth of feelings but, as introverts, they typically process these emotions internally. They possess an incredible sense of wonder about the world and feel great compassion and empathy for others."
+                ],
+                "Auxiliary: Extraverted Intuition (Ne)": [
+                    "INFPs explore situations using imagination and 'what if' scenarios, often thinking through a variety of possibilities before settling on a course of action. Their inner lives are a dominant force in personality, and they engage with the outside world by using their intuition.",
+                    "INFPs focus on the big picture and things that will shape the future. This ability can help you become a transformative leader excited about making positive changes in the world."
+                ],
+                "Tertiary: Introverted Sensing (Si)": [
+                    "When taking in information, INFPs create vivid memories of the events. They will often replay these incidents in their minds to analyze experiences in less stressful settings. Such memories are usually associated with strong emotions, so recalling a memory can often seem like reliving the experience itself."
+                ],
+                "Inferior: Extraverted Thinking (Te)": [
+                    "This cognitive function involves organizing and making sense of the world in an objective and logical manner. While it is a mainly unconscious influence on the INFP's personality, extraversion can show itself in times of pressure.",
+                    "Because they are typically ruled more by intuition and emotion, INFPs can sometimes struggle to feel productive and efficient. Learning to develop the extraverted thinking function can help people with the INFP personality type create a better sense of balance."
+                ]
             },
-            "relationships": "",
-            "career": []
+            "relationships": "INFPs are idealists so they tend to have high expectations—including in relationships. That means that you might hold an idealized image in your mind of your perfect partner—which can be a difficult role for any individual to fill. If you have an INFP personality type, you care deeply about other people. Yet, as an introvert, you can be difficult to know. You *do* tend to become very close and deeply committed to the few that you forge close relationships with. INFPs also dislike and try to avoid conflict. So when conflicts or arguments do arise, you usually focus more on how it makes you feel rather than the actual details. During arguments, INFPs might seem overly emotional or even irrational. However, they can also be good mediators by helping others involved in a conflict identify and express their feelings.",
+            "career": "INFPs typically do well in careers where they can express their creativity and vision. While they work well with others, they generally prefer to work alone. INFPs tend to be very creative, artistic, and spiritual. They are often skilled with language but may prefer to express their thoughts and feelings through writing rather than speaking. Because they have strong ethics and values, INFPs also become passionate about advocating or defending their beliefs. While they feel strongly about their own values, they are also interested in learning more about others and are willing to listen and consider many sides of an issue."
         },
 
         "INTJ": {
             "name": "The Architect",
             "description": [
-
+                "The INTJ personality type is one of the 16 different types described by the  Myers-Briggs Type Indicator (MBTI). Each type is identified by a four-letter acronym that represents key personality traits. In the case of the INTJ, these letters stand for introverted, intuitive, thinking, and judging.",
+                "Sometimes referred to as the Architect or the Strategist, people with an INTJ personality are highly analytical, creative, and logical.1 You might recognize them for their independent, ambitious, and goal-oriented traits. They are super logical and well-informed—they love staying caught up on the latest facts and events of the world. They are highly curious and have a passion for learning, but they are also willing to consider multiple points of view and reconsider their opinions in light of new information."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": [],
+            "characteristics": ["Independent", "Logical", "Productive", "Analytical", "Organized", "Reserved", "Quiet", "Creative", "Capable", "Controlling", "Single-minded", "Innovative", "Relentless", "Curious"],
+            "strengths": ["Enjoys theoretical and abstract concepts", "High expectations", "Good at listening", "Takes criticism well", "Self-confident and hard-working"],
+            "weaknesses": ["Can be overly analytical and judgmental", "Very perfectionistic", "Dislikes talking about emotions", "Sometimes seems callous or insensitive"],
             "cognitive": {
-
+                "Dominant: Introverted Intuition (Ni)": [
+                    "INTJs use introverted intuition, often abbreviated Ni, to look at patterns, meanings, and possibilities. That means that instead of looking at concrete facts, they are more interested in what they mean.",
+                    "INTJs also enjoy thinking about the future and exploring possibilities. They like to consider all of the possible options and imagine different possibilities, which can influence their day-to-day decision-making.",
+                    "Because they think more about the big picture, INTJs tend to remember impressions more than exact details of what occurred. So, while they might struggle to remember the specifics, they are good at recalling the general gist or idea behind past events.",
+                    "Abstract thinking comes naturally to people with the INTJ personality type. As a result, they are good at reading between the lines to figure out what things might really mean."
+                ],
+                "Auxiliary: Extraverted Thinking (Ti)": [
+                    "The auxiliary function help bring balance to personality. If a person used their dominant function all of the time, their personality would be one-dimension. While the dominant function might drive personality, the auxiliary function is there to offer tips, directions, and support.",
+                    "For the INTJ, it's extraverted thinking, often abbreviated Ti, that steps in to offer assistance. As a secondary function in the INTJ personality, extroverted thinking leads people with this type to seek order, control, and structure in the world around them.",
+                    "Thanks to this extraverted thinking function, INTJs can be very deliberate and methodical when approaching problems."
+                ],
+                "Tertiary: Introverted Feeling (Fi)": [
+                    "The tertiary function is less developed than the dominant and auxiliary functions. We are often less conscious of it and may not feel as comfortable using it. In many cases, this function tends to emerge when we are under stress.",
+                    "This function involves being able to think about emotions, including understanding your own feelings as well as those of others. When this function moves to the forefront, it often means making decisions based on an emotional response rather than a logical one.",
+                    "An INTJ who develops this aspect of their personality more fully pays greater attention to values and feelings when making decisions. As a result, they may also feel more drawn to people and activities that are well-aligned with their values."
+                ],
+                "Inferior: Extraverted Sensing (Se)": [
+                    "The inferior function is the least developed part of personality. It is not used often, and when we do, we may run into problems. It also represents the opposite of the dominant function.",
+                    "In INTJs, extraverted sensing, often abbreviated Se, tends to be the least developed of their cognitive functions. While weak, it does still exert some influence. This function allows an INTJ to process information through their senses.",
+                    "When this function is in play, people who are INTJs may feel that they are living in the moment and energized by the world around them."
+                ]
             },
-            "relationships": "",
-            "career": []
+            "relationships": "People with an INTJ personality type are introverted, reserved, and spend a lot of time in their own mind. They work best by themselves and strongly prefer solitary activities to group work. While they tend not to be particularly interested in other people's thoughts and feelings, INTJs do care about the emotions of the select group of people with whom they are close. In personal relationships, INTJs are willing to devote time and energy toward making these relationships successful. People with this type of personality often see little value in social rituals and small talk, making it more difficult to get to know them. Other people may interpret INTJs as cool, aloof, and disinterested, which can make forming new friendships with them challenging.",
+            "career": "When INTJs develop an interest in something, they strive to become as knowledgeable and skilled as they can in that area. They have high expectations and hold themselves to the highest possible standards. INTJs value information, knowledge, and intelligence, making them excellent scientists and mathematicians. They also tend to do particularly well in fields that require efficiency and the ability to interpret complex information, such as engineering, academia, law, and research. INTJs typically do well in careers that integrate their strong ability to understand and evaluate complex information with their ability to put this knowledge into practice. Careers that allow the INTJ to work independently and autonomously are also ideal."
         },
 
         "INTP": {
             "name": "The Thinker", 
             "description": [
-
+                "INTP—introverted, intuitive, thinking, and perceiving—is one of the 16 personality types described by the Myers-Briggs Type Indicator (MBTI).1 People who score as an INTP personality type are often described as quiet and analytical. They enjoy spending time alone, thinking about how things work, and coming up with solutions to problems.",
+                "INTPs have a rich inner world and would rather focus their attention on their internal thoughts rather than the external world. They typically do not have a wide social circle, but they do tend to be close to a select group of people."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": [],
+            "characteristics": ["quiet", "reserved", "thoughtful", "enjoys thinking about theoretical concepts", "tends to value intellect over emotion", "highly logical and objective", "flexible"],
+            "strengths": ["Logical and objective", "Abstract thinker", "Independent", "Loyal and affectionate with loved ones"],
+            "weaknesses": ["Difficult to get to know", "Can be insensitive", "Prone to self-doubt", "Struggles to follow rules", "Has trouble expressing feelings"],
             "cognitive": {
-
+                "Dominant: Introverted Thinking": [
+                    "This function focuses on how people take in information about the world. INTPs try to understand how things work. typically deconstructing things or ideas to see how things fit and function together.",
+                    "INTPs tend to be highly logical and efficient thinkers. They like to have a complete understanding of something before they share an opinion or take action."
+                ],
+                "Auxiliary: Extraverted Intuition": [
+                    "INTPs explore what-ifs and possibilities, using insight, imagination, and experiences to form ideas. INTPs often go over what they know, seeking patterns until they can achieve a flash of inspiration or insight into a problem. They tend to spend a great deal of time thinking about the future and imagining all the possibilities."
+                ],
+                "Tertiary: Introverted Sensing": [
+                    "INTPs tend to be very detail-oriented, carefully categorizing all of the many facts and experiences they take in. As they collect new information, INTPs compare and contrast it with what they already know in order to make predictions about what they believe will happen next."
+                ],
+                "Inferior: Extraverted Feeling": [
+                    "INTPs tend to seek harmony in groups. While they are introverted, INTPs can be quite outgoing when they are around people with whom they are familiar and comfortable. In situations where they feel stress, however, INTPs shut down their feelings and struggle to connect with others. Under stress, they tend to rely on logic rather than feelings."
+                ]
             },
-            "relationships": "",
-            "career": []
+            "relationships": "As introverts, INTPs prefer spending time alone for the most part. Unlike extroverts, who gain energy from interacting with a wide group of people, introverts must expend energy in social situations.3 After being around a lot of people, INTPs might feel like they need to be by themselves to recharge and find balance. While they may be shy around people they do not know well, INTPs tend to be warm and friendly with their close group of family and friends. Because INTPs enjoy solitude and deep thinking, they sometimes strike others as aloof and detached. At times, people with this personality type can get lost in their own thoughts and lose track of the outside world. INTPs love ideas and place a high value on intelligence and knowledge. In social situations, INTPs tend to be quite easy-going and tolerant. However, they can become unyielding when their beliefs or convictions are challenged. Their high emphasis on logic can make it difficult for INTPs to not correct others when their arguments aren't rational or logical. Because they rely on their own minds, INTPs can also be very difficult to persuade.",
+            "career": "Because they enjoy theoretical and abstract concepts, INTPs often do particularly well in science-related careers. They are logical and have strong reasoning skills, but are also excellent at thinking creatively. INTPs can be very independent and place a great deal of emphasis on personal freedom and autonomy. In some cases, they can be aggravated by authority figures, particularly those that they feel are trying to suppress their ability to think and act for themselves. Because of this, INTPs typically do best in careers that have a great deal of flexibility and independence."
         },
 
         "ESTP": {
