@@ -12,22 +12,6 @@ body {
     border-radius: 15px;
 }
 
-.progressBar {
-    width: 500px;
-    height: 15px;
-    margin: auto;
-    border-radius: 25px;
-    margin-top: 25px;
-    background-color: #e2dfd5;
-}
-
-.progress {
-    width: 75%;
-    height: 15px;
-    border-radius: 15px;
-    background-color: #c7d756;
-}
-
 button {
     background-color: #f5c360;
     border-radius: 25px;
@@ -48,8 +32,8 @@ h3 {
 }
 
 h4 {
-    font-size: 20px
-;}
+    font-size: 20px;
+}
 
 .resultTitle {
     color: #f5c360;

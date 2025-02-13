@@ -1,56 +1,66 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 
-export function Quiz({ scores, data }) {
+export function Quiz({ scores, setScores, data }) {
 
-    // data from JSON file
+    const [pageNum, setPageNum] = useState(1);
+    const [questionStart, setQuestionStart] = useState(0);
+    const [selectedValues, setSelectedValues] = useState(new Array(5).fill(0));
+
     const questions = data.questions;
-
-    const [questionIndex, setQuestionIndex] = useState(0);
-    const [selectedValue, setSelectedValue] = useState(null);
-    const [isLastQuestion, setIsLastQuestion] = useState(false);
-    const [percentage, setPercentage] = useState(0);
+    const currentQuestions = questions.slice(questionStart, questionStart + 5);
 
     const navigate = useNavigate();
 
-    function handleChange(e) {
-        setSelectedValue(e.target.value);
+    // scroll back to top when refreshing
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth'});
+    }, []);
+
+    function handleChange(e, index) {
+        const newValues = [...selectedValues];
+        newValues[index] = parseInt(e.target.value);
+        setSelectedValues(newValues);
     }
 
-    function handleScoring(e) {
-        const value = parseInt(selectedValue);
-        const keys = Object.keys(questions[questionIndex].options);
-        let trait = "";
+    function handleScoring() {
 
-        if (value < 0) {
-            trait = keys[0];
-        } else if (value > 0) {
-            trait = keys[1];
-        }
+        const updatedScores = { ...scores }; 
 
-        if (trait) {
-            scores[trait] += Math.abs(value);
-        }
+        currentQuestions.forEach((question, index) => {
+            const value = selectedValues[index];
+            const keys = Object.keys(question.options);
+            let trait = "";
+
+            if (value < 0) {
+                trait = keys[0]; 
+            } else if (value > 0) {
+                trait = keys[1]; 
+            }
+
+            if (trait) {
+                updatedScores[trait] += Math.abs(value); 
+            }
+        });
+        setScores(updatedScores);
+        setSelectedValues(new Array(5).fill(0));
     }
 
-    function handleNextQuestion(e) {
+    function handleNext(e) {
         e.preventDefault();
-        setPercentage(percentage + 5);
-        handleScoring(e);
+        handleScoring();
+        console.log(pageNum);
 
-        if (questionIndex < questions.length - 1) {
-            setQuestionIndex(questionIndex + 1);
+        if (pageNum < 4) {
+            setQuestionStart(questionStart + 5)
+            setPageNum(pageNum + 1);
+            window.scrollTo({ top: 0, behavior: 'smooth'});
         }
-
-        if (questionIndex === questions.length - 2) {
-            setIsLastQuestion(true);
-        } 
-        console.log(scores);
     }
 
     function handleSubmit(e) {
         e.preventDefault();
-        handleScoring(e);
+        handleScoring();
 
         // only navigates after all states update (handle scoring for last question)
         setTimeout(() => {
@@ -59,59 +69,67 @@ export function Quiz({ scores, data }) {
         
     }
 
+    const isLastPage = pageNum === 4;
+
     return (
         <div>
-            <form className="quizContainer">
+            <form className="mb-5 quizContainer">
                 <fieldset>
 
+                    <QuestionSection currentQuestions={currentQuestions} questionStart={questionStart} selectedValues={selectedValues} handleChange={handleChange}/>
 
-                    <legend className='pb-5'><strong>Question {questionIndex + 1}:</strong> {questions[questionIndex].question}</legend>
-                    
-                    <div className='pb-5 pt-5 px-5 mx-5 d-flex justify-content-center align-items-center gap-5'>
-                        <label htmlFor="minustwo">
-                            <input type="radio" id="minustwo" name="choices" value="-2" onChange={handleChange}/>
-                            <span className="mx-4 checkmarkOuter checkmark"></span>
-                        </label>
-
-                        <label htmlFor="minusone">
-                            <input type="radio" id="minusone" name="choices" value="-1" onChange={handleChange}/>
-                            <span className="mx-4 checkmarkMiddle checkmark"></span>
-                        </label>
-
-
-                        <label htmlFor="neutral">
-                            <input type="radio" id="neutral" name="choices" value="0" onChange={handleChange}/>
-                            <span className="mx-4 checkmarkCenter checkmark"></span>
-                        </label>
-
-                        <label htmlFor="plusone">
-                            <input type="radio" id="plusone" name="choices" value="1" onChange={handleChange}/>
-                            <span className="mx-4 checkmarkMiddle checkmark"></span>
-                        </label>
-
-                        <label htmlFor="plustwo">
-                            <input type="radio" id="plustwo" name="choices" value="2" onChange={handleChange}/>
-                            <span className="mx-4 checkmarkOuter checkmark"></span>
-                        </label>
-                    </div>
-
-                    <div className='mx-3 pb-5 d-flex justify-content-between'>
-                        <h4>{Object.values(questions[questionIndex].options)[0]}</h4>
-                        <h4>{Object.values(questions[questionIndex].options)[1]}</h4>
-                    </div>
-
-
-
-                    <button onClick={isLastQuestion ? handleSubmit : handleNextQuestion} className="d-block m-auto mt-5 px-5 nextButton">
-                        {isLastQuestion ? "Submit" : "Next"}
+                    <button onClick={isLastPage ? handleSubmit : handleNext} className="d-block m-auto mt-5 px-5 nextButton">
+                        {isLastPage ? "Submit" : "Next"}
                     </button>
                 </fieldset>
             </form>
-            <div className="progressBar">
-                <div className="progress" style={{width: `${percentage}%`}}></div>
-            </div>
-            <p className="text-center">{percentage}% completed</p>
+
+            <h4 className="text-center mb-5">Page {pageNum} of 4</h4>
+
         </div>
     )
+}
+
+
+function QuestionSection({ currentQuestions, questionStart, selectedValues, handleChange }) {
+    return (
+        <>
+            {currentQuestions.map((question, index) => (
+                <div key={index}>
+                    <legend>
+                        <strong>Question {questionStart + index + 1}:</strong> {question.question}
+                    </legend>
+                    
+                    <div className='pb-5 pt-5 px-5 mx-5 d-flex justify-content-center align-items-center gap-5'>
+
+                        {[-2, -1, 0, 1, 2].map((value, idx) => (
+                            <label key={idx} htmlFor={`choice-${questionStart + index}-${value}`}>
+                                <input
+                                    type="radio"
+                                    id={`choice-${questionStart + index}-${value}`}
+                                    name={`choices-${questionStart + index}`}
+                                    value={value}
+                                    checked={selectedValues[index] === value}
+                                    onChange={(e) => handleChange(e, index)}
+                                />
+                                <span className={`mx-4 checkmark ${
+                                    value === 0 ? "checkmarkCenter" 
+                                    : (value === -1 || value === 1) ? "checkmarkMiddle" 
+                                    : "checkmarkOuter"
+                                }`}></span>
+                            </label>
+                        ))}
+
+                    </div>
+
+                    <div className='mb-5 d-flex justify-content-between'>
+                        <h4>{Object.values(question.options)[0]}</h4>
+                        <h4>{Object.values(question.options)[1]}</h4>
+                    </div>
+                    <hr className="mb-5"></hr>
+                </div>
+            ))}
+        </>
+    );
 }
 
