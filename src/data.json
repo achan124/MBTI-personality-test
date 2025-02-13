@@ -418,55 +418,114 @@
         "ESTP": {
             "name": "The Persuader",
             "description": [
-
+                "We all have unique personalities, but according to the Myers-Briggs Type Indicator (MBTI), our personalities tend to fall into one of 16 types. One is the ESTP type, which stands for Extraverted, Sensing, Thinking, Perceiving. People with the ESTP personality type are frequently described as outgoing, action-oriented, and dramatic.",
+                "ESTPs—also known as Entrepreneurs and Dynamos—are outgoing and enjoy spending time with a wide circle of friends and acquaintances. They are interested in the here and now and are more likely to focus on details than take a broader view.",
+                "The MBTI is one of the most popular personality assessments. It was developed by Isabel Meyers and Katherine Briggs, a mother-daughter duo, based on the theories of psychoanalyst Carl Jung."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": [],
+            "characteristics": ["logical", "higher value on objectivity than personal feelings", "like to improvise"],
+            "strengths": ["Gregarious, funny, and energetic", "Influential and persuasive", "Action-oriented", "Adaptable and resourceful", "Observant"],
+            "weaknesses": ["Impulsive", "Competitive", "Dramatic at times", "Easily bored", "Insensitive"],
             "cognitive": {
-
+                "Dominant: Extraverted Sensing (Se)": [
+                    "Reality focused: Because they are so focused on the present world, ESTPs tend to be realists.2 They are interested in the sights, sounds, and experiences that are going on immediately around them, and they have little use for daydreams or flights of fancy.",
+                    "Sensation seeking: As sensors, people with this personality type want to touch, feel, hear, taste, and see anything and everything that might draw their interest. When learning about something new, it's not just enough to read about it in a textbook or listen to a lecture – they want to experience it for themselves.",
+                    "High energy: ESTPs also have lots of energy, so they can become bored in tedious or in learning situations involving a great deal of theoretical information.",
+                    "Action-oriented: ESTPs are the quintessential doers. They get straight to work and are willing to take risks to get the job done. ESTPs enjoy being active, but they also like that activity to feel practical and productive. For example, they might grow bored by the same exercise routine or by running on the treadmill; they'd prefer seeking novel activities or doing something useful."
+                ],
+                "Auxiliary: Introverted Thinking (Ti)": [
+                    "Highly disciplined: This inner sense of control gives ESTPs a great deal of self-discipline. They are skilled at working independently and can be very goal-directed when they want to achieve an objective.",
+                    "Very observant: They have excellent observational skills, noticing things others may overlook. As they take in information, they apply their logic to look for practical and immediately applicable solutions."
+                ],
+                "Tertiary: Extraverted Feeling (Fe)": [
+                    "Outgoing: They enjoy being at the center of attention and are good at establishing a friendly rapport with other people.",
+                    "People pleasing: While they are social, ESTPs are sometimes less comfortable sharing their opinions and judgments with others. Rather than rock the boat, they are more focused on pleasing others and maintaining harmony. They may overlook their own needs at times to ensure that other people are happy.",
+                    "Humanitarian: This aspect of personality also drives ESTPs to want to use their skills to help others and make the world a better place. They feel concerned for others and are able to see practical solutions to problems."
+                ],
+                "Inferior: Introverted Intuition (Ni)": [
+                    "Seek connections: They may look for connections that will help them gain a sense of what to expect will happen next.",
+                    "Sometimes distrust instinctive reactions: Intuition is not an ESTPs strong suit, but they will sometimes develop strong gut reactions to a situation that may actually be completely inaccurate. Because of this, they may feel that they do not have good instincts."
+                ]
             },
-            "relationships": "",
-            "career": []
+            "relationships": "Strong people skills: According to Keirsey, people with this personality type are particularly skilled at influencing people. ESTPs are not only great at interacting with other people, but they also have a natural ability to perceive and interpret nonverbal communication. Difficulty with commitment: While they are great with people, ESTPs prefer to live in the moment, which can sometimes make it hard for them to commit to a relationship. Because they are so focused on the present, it can be difficult to think about their long-term plans. Can seem insensitive: ESPTs sometimes have a hard time tuning in to what others are thinking or feeling. As a result, they can sometimes say things that might be perceived as insensitive and may need to put in extra effort to pay attention to their friends and partners.",
+            "career": "The MBTI also suggests that certain personality types may exhibit preferences and strengths that align them with certain careers. People with an ESTP personality type feel energized when interacting with a wide variety of people, so they do best in jobs that involve working with others. They strongly dislike routine and monotony, so fast-paced jobs are ideal. ESTPs have several different personality characteristics that make them well-suited for certain careers. Because of their strong people skills, ESTPs tend to do very well in careers that involve sales and marketing. Because they are action-oriented and resourceful, they are great in first-responder positions that require fast-thinking and quick responses, such as emergency medical personnel and police officers."
         },
 
         "ESTJ": {
             "name": "The Director",
             "description": [
-
+                "Do you know someone who is super logical and has a take charge kind of attitude? Then there's a strong chance they have an ESTJ personality type.1 People with this constellation of personality characteristics tend to be assertive and confident. They want to make sure things run smoothly and according to the rules, and they are willing to step in and give guidance to make sure that happens.",
+                "ESTJs are also committed to traditions, standards, and laws. They have strong beliefs and possess sensible judgment—and they expect others to also uphold these same principles.",
+                "David Keirsey, the creator of the Keirsey Temperament Sorter, suggests that the ESTJ personality type is the Guardian Supervisor. This is one of four Guardian archetypes, the others being Inspector, Provider, and Protector."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": [],
+            "characteristics": ["Leadership", "Organization", "Discipline", "Assertiveness", "Structure", "Goal-orientation", "Directness", "Hardworking", "Orderliness", "Practical", "Reliable"],
+            "strengths": ["Practical and realistic", "Dependable", "Self-confident", "Hard-working", "Traditional", "Strong leadership skills"],
+            "weaknesses": ["Insensitive", "Inflexible", "Not good at expressing feelings", "Argumentative", "Bossy"],
             "cognitive": {
-
+                "Dominant: Extraverted Thinking": [
+                    "ESTJs rely on objective information and logic rather than personal feelings to make decisions.5 They are skilled at making objective, impersonal, and impartial decisions. Rather than focusing on their own subjective feelings when making judgments, they consider facts and logic to make rational choices.",
+                    "People with ESTJ personality types tend to be very practical. They enjoy learning about things they can see an immediate, real-world use for and tend to lose interest in things that are abstract or theoretical. ESTJs enjoy concrete facts as opposed to abstract information. Myers Briggs Type Indicator. ESTJ: the efficient organizer."
+                ],
+                "Auxiliary: Introverted Sensing": [
+                    "ESTJs are good at remembering things with a great deal of detail. Their memories of past events can be quite vivid and they often utilize recollections of past experiences to make connections with present events.",
+                    "Because their sensing function is focused inwardly, ESTJs tend to be less concerned with novelty and more focused on familiarity. They enjoy having habits and routines they can depend upon. While this gives them stability and predictability, it can also make them stubborn and unyielding."
+                ],
+                "Tertiary: Extraverted Intuition": [
+                    "This aspect of the ESTJ seeks out novel ideas and possibilities. It compels people with this personality type to explore their creativity.",
+                    "As they process new ideas and information, ESTJs may explore possible meanings in order to spot new connections or patterns. This allows them to look at incoming information and recognize that there may be more than one interpretation or possible outcome.",
+                    "Remember, this is a tertiary function for the ESTJ, so it tends to be less developed. That means people with this type of personality may be less comfortable using this function, but it is a skill they can develop and strengthen with practice."
+                ],
+                "Inferior: Introverted Feeling": [
+                    "When this function is used, it may lead ESTJs to make decisions based more on feelings than on logic. These are often internal valuations that lead to gut feelings about some situations.",
+                    "While this function is not used as often, in some cases, an ESTJ might allow their subjective feelings to override their objective interpretation of a situation. ESTJs tend not to give much thought to their own emotions, so it's something that tends to happen on a largely unconscious basis."
+                ]
             },
-            "relationships": "",
-            "career": []
+            "relationships": "ESTJs are dependable and take their commitments seriously. Once they've dedicated themselves to a relationship, they will stay true to it for life. That said, ESTJs tend to avoid emotions and feelings, which can be difficult for their partners at times. While they may not express how they feel through words, remember that they will often convey their emotions through actions. Family is what matters most for ESTJs. They are all about fulfilling their personal obligations and making sure they take care of the people they love. They are also great at remembering important events, including birthdays and anniversaries (it's one more way to show how much they care). They look forward to attending weddings, family reunions, holiday parties, class reunions, and other occasions. One potential area of weakness for ESTJs when it comes to their relationships is their tendency to be rigid when it comes to rules and routines. They also tend to take their own opinion quite seriously, meaning they are less inclined to listen to what others (including their partners) say.",
+            "career": "Because they appreciate order and organization, ESTJs frequently do well in leadership roles.5 They are sticklers for the rules, so they check up to ensure that members of the group follow the rules, traditions, and laws established by higher authorities. How do these characteristics show up in school or at work? In such settings, ESTJs are hard-working and dependable.5 They strive to follow directions to the letter and show great respect and deference to authority. ESTJs have a wide range of personality characteristics that help them excel in a number of different careers. Their emphasis on rules and procedures makes them well-suited to supervisory and management positions while their respect for law, authority, and order helps them excel in law enforcement roles."
         },
 
         "ESFP": {
             "name": "The Performer",
             "description": [
-
+                "ESFP (extraverted, sensing, feeling, perceiving) is one of the 16 personality types identified by the Myers-Briggs Type Indicator.1 People with ESFP personality types are often described as spontaneous, resourceful, and outgoing. The ESFP personality type is often referred to as the performer or the entertainer.",
+                "They love being the center of attention and are often described as class clowns. ESFP is the opposite of the INTJ personality type.",
+                "According to psychologist David Keirsey, the developer of the Keirsey Temperament Sorter, approximately 4% to 10% of all people have an ESFP personality type."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": [],
+            "characteristics": ["They are practical and resourceful", "They figure things out as they go along", "They are very understanding", "They are fun-loving"],
+            "strengths": ["Optimistic and gregarious", "Enjoys people and socializing", "Focused on the present, spontaneous", "Practical"],
+            "weaknesses": ["Dislikes abstract theories", "Becomes bored easily", "Does not plan ahead", "Impulsive"],
             "cognitive": {
+                "Dominant: Extraverted Sensing": [
+                    "ESFPs prefer to focus on the here-and-now rather than thinking about the distant future. They also prefer learning about concrete facts rather than theoretical ideas.",
+                    "ESFPs don’t spend a lot of time planning and organizing. Instead, they like to keep their options open.",
+                    "When solving problems, they trust their instincts and put trust in their own abilities to come up with a solution. While they are reasonable and pragmatic, they dislike structure, order, and planning. Instead, they act spontaneously and do not spend a great deal of time coming up with a plan or schedule."
+                ], 
+                "Auxiliary: Introverted Feeling": [
+                    "ESFPs place a greater emphasis on personal feelings rather than logic and facts when making decisions.", 
+                    "People with this personality type have an internal system of values on which they base their decisions. They are very much aware of their own emotions and are empathetic towards others. They excel at putting themselves in another person's shoes, so to speak."
+                ],
+                "Tertiary: Extraverted Thinking": [
+                    "This function is focused on enforcing order on the outside world. It is centered on productivity, logic, and results.",
+                    "Because this tends to be a weaker aspect of personality, ESFPs may not always feel secure sharing their judgments, especially if they feel it will disrupt the harmony of the group."
+                ], 
+                "Inferior: Introverted Intuition": [
+                    "While this is the least prominent aspect of personality, this function can help the ESFP spot patterns and make connections in things they have observed.",
+                    "ESFPs are usually not particularly adept at using logic to sort through abstract concepts, but this sense can sometimes lead to flashes of insight and epiphanies about themselves or the world."
+                ]
 
             },
-            "relationships": "",
-            "career": []
+            "relationships": "As extraverts, ESFPs enjoy spending time with other people and have excellent interpersonal skills. ESFPs are often described as warm, kind, and thoughtful, making them popular and well-liked by others. ESFPs enjoy meeting new people, but they also have a thirst for new experiences. They are generally focused on the present and will often be the first person to try the newest ride at an amusement park or try out a new adventure sport.",
+            "career": "With their strong dislike for routine, ESFPs do best in careers that involve a lot of variety. Jobs that involve a great deal of socializing are also a great fit, allowing individuals with this personality type to put their considerable people skills to good use. Careers that involve a great deal of structure and solitary work can be difficult for ESFPs, and they often become bored in such situations."
         },
 
         "ESFJ": {
             "name": "The Caregiver",
             "description": [
-
+                "The ESFJ personality type is one of the 16 personality types identified by the Myers-Briggs Type Indicator (MBTI). People with an ESFJ personality type tend to be outgoing, loyal, organized, and tender-hearted, which is why they are sometimes known as The Caregiver or The Consul.",
+                "Because they are extroverts, ESFJs love spending time with others. In fact, they gain a lot of energy by interacting with other people. You might recognize them as being outgoing, gregarious, and conscientious.",
+                "ESFJs also have a way of encouraging other people to be their best. They are good at empathizing with others and tend to see the best in people, which means they sometimes have a hard time believing anything bad about the people they are close to."
             ],
-            "characteristics": [],
-            "strengths": [],
+            "characteristics": ["Sensitive to the needs and feelings of others", "They derive their value system from external sources, including the community at large, rather than from intrinsic, ethical, and moral guidelines", "Enjoy helping others", "Expect their kind and giving ways to be noticed and appreciated by others", "Get easily hurt by unkindness or indifference", "Have a need for approval", "Provide care for others", "Want to be liked by others"],
+            "strengths": [""],
             "weaknesses": [],
             "cognitive": {
 

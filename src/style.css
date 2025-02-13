@@ -4,7 +4,6 @@ body {
 
 .quizContainer {
     width: 1000px;
-    /* height: 500px; */
     padding: 50px;
     margin: auto;
     margin-top: 100px;
@@ -48,11 +47,64 @@ h3 {
     font-size: 25px;
 }
 
+h4 {
+    font-size: 20px
+;}
+
 .resultTitle {
     color: #f5c360;
     text-shadow: 1px 1px 1px #5d5d5d;   
 }
 
-/* .sliderInput {
-    width: 100%;
-} */
+/* Radio Button Styling */
+input {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.checkmark {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.checkmarkOuter {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+.checkmarkOuter:not(:checked){
+    border-color: #c7d656; 
+}
+
+input[type="radio"]:checked + .checkmarkOuter {
+    background-color: #c7d656; 
+}
+
+
+.checkmarkMiddle {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+.checkmarkMiddle:not(:checked){
+    border-color: #f5c360; 
+}
+
+input[type="radio"]:checked + .checkmarkMiddle {
+    background-color: #f5c360; 
+}
+
+.checkmarkCenter {
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+input[type="radio"]:checked + .checkmarkCenter  {
+    background-color: #ccc; 
+}

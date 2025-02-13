@@ -51,26 +51,59 @@ export function Quiz({ scores, data }) {
     function handleSubmit(e) {
         e.preventDefault();
         handleScoring(e);
-        navigate('/results');
+
+        // only navigates after all states update (handle scoring for last question)
+        setTimeout(() => {
+            navigate('/results');
+        }, 0)
+        
     }
 
     return (
         <div>
             <form className="quizContainer">
                 <fieldset>
+
+
                     <legend className='pb-5'><strong>Question {questionIndex + 1}:</strong> {questions[questionIndex].question}</legend>
                     
-                    <div className='pb-4 pt-5 px-5 mx-5 d-flex justify-content-center'>
-                        <input type="range" id="slider" name="slider" min="-2" max="2" className="w-100" onChange={handleChange}/>
+                    <div className='pb-5 pt-5 px-5 mx-5 d-flex justify-content-center align-items-center gap-5'>
+                        <label htmlFor="minustwo">
+                            <input type="radio" id="minustwo" name="choices" value="-2" onChange={handleChange}/>
+                            <span className="mx-4 checkmarkOuter checkmark"></span>
+                        </label>
+
+                        <label htmlFor="minusone">
+                            <input type="radio" id="minusone" name="choices" value="-1" onChange={handleChange}/>
+                            <span className="mx-4 checkmarkMiddle checkmark"></span>
+                        </label>
+
+
+                        <label htmlFor="neutral">
+                            <input type="radio" id="neutral" name="choices" value="0" onChange={handleChange}/>
+                            <span className="mx-4 checkmarkCenter checkmark"></span>
+                        </label>
+
+                        <label htmlFor="plusone">
+                            <input type="radio" id="plusone" name="choices" value="1" onChange={handleChange}/>
+                            <span className="mx-4 checkmarkMiddle checkmark"></span>
+                        </label>
+
+                        <label htmlFor="plustwo">
+                            <input type="radio" id="plustwo" name="choices" value="2" onChange={handleChange}/>
+                            <span className="mx-4 checkmarkOuter checkmark"></span>
+                        </label>
                     </div>
 
-                    <label htmlFor="slider" className='mx-3 pb-5 d-flex justify-content-between'>
-                        <p>{Object.values(questions[questionIndex].options)[0]}</p>
-                        <p>{Object.values(questions[questionIndex].options)[1]}</p>
-                    </label>
+                    <div className='mx-3 pb-5 d-flex justify-content-between'>
+                        <h4>{Object.values(questions[questionIndex].options)[0]}</h4>
+                        <h4>{Object.values(questions[questionIndex].options)[1]}</h4>
+                    </div>
+
+
 
                     <button onClick={isLastQuestion ? handleSubmit : handleNextQuestion} className="d-block m-auto mt-5 px-5 nextButton">
-                        {isLastQuestion ? "Submit" : "Next Question"}
+                        {isLastQuestion ? "Submit" : "Next"}
                     </button>
                 </fieldset>
             </form>
@@ -81,3 +114,4 @@ export function Quiz({ scores, data }) {
         </div>
     )
 }
+
