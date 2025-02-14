@@ -10,6 +10,8 @@ export function Results({ scores, data }) {
     if (scores.T > scores.F) { type += "T"; } else { type += "F";}
     if (scores.J > scores.P) { type += "J"; } else { type += "P";}
 
+    // isfj
+
     const name = results[type].name;
 
     const description = results[type].description.map((item, index) => {

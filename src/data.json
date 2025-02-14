@@ -215,8 +215,8 @@
         "ISFJ": {
             "name": "The Protector",
             "description": [
-                "ISFJ is one of the 16 personality types identified on the Myers-Briggs Type Indicator (MBTI), the personality test developed by Isabel Myers and her mother, Katherine Briggs, based on the theories of psychoanalyst Carl Jung.1 ISFJ stands for introverted, sensing, feeling, judging.",
-                "This personality type is given the nickname The Protector or The Defender, and for good reason.2 People who have ISFJ personalities are known for being warm-hearted, responsible, and reserved. The ENTP personality type is the opposite.",
+                "ISFJ is one of the 16 personality types identified on the Myers-Briggs Type Indicator (MBTI), the personality test developed by Isabel Myers and her mother, Katherine Briggs, based on the theories of psychoanalyst Carl Jung. ISFJ stands for introverted, sensing, feeling, judging.",
+                "This personality type is given the nickname The Protector or The Defender, and for good reason. People who have ISFJ personalities are known for being warm-hearted, responsible, and reserved. The ENTP personality type is the opposite.",
                 "This personality type is not rare—it is actually one of the more common types. ISFJs make up about 9% to 14% of the population.",
                 "This type may occur more frequently because ISFJs are capable of succeeding in independent and social situations. Their adaptability means they can thrive in many settings."
             ],
@@ -525,73 +525,164 @@
                 "ESFJs also have a way of encouraging other people to be their best. They are good at empathizing with others and tend to see the best in people, which means they sometimes have a hard time believing anything bad about the people they are close to."
             ],
             "characteristics": ["Sensitive to the needs and feelings of others", "They derive their value system from external sources, including the community at large, rather than from intrinsic, ethical, and moral guidelines", "Enjoy helping others", "Expect their kind and giving ways to be noticed and appreciated by others", "Get easily hurt by unkindness or indifference", "Have a need for approval", "Provide care for others", "Want to be liked by others"],
-            "strengths": [""],
-            "weaknesses": [],
+            "strengths": ["Kind and loyal", "Outgoing", "Organized", "Practical and dependable", "Enjoy helping others", "Conscientious"],
+            "weaknesses": ["Needy", "Approval-seeking", "Sensitive to criticism", "Dislike change", "Intolerant", "Controlling"],
             "cognitive": {
-
+                "Dominant: Extroverted Feeling (Fe)": [
+                    "The extroverted feeling function (Fe) involves thinking about emotions in a way that helps people better understand their own feelings as well as those of other people. Because this is the dominant function for the ESFJ personality type, so people with this type of personality tend to consider everyone's emotions when making decisions.",
+                    "ESFJs tend to make decisions based on their emotions and concern for others. As a result, they tend to consider the personal impact of a decision more than objective criteria.",
+                    "This tendency can be great in some ways, as it allows them to make choices rather quickly. However, on the negative side, it can sometimes lead to overly harsh judgments of others. They might rush to judgment based on their immediate impressions but then struggle to change their mind when new information comes to light."
+                ],
+                "Auxiliary: Introverted Sensing (Si)": [
+                    "The introverted sensing function (Si) helps strike a balance between the dominant extroverted feeling function. Rather than making rash decisions based solely on gut reactions and emotional responses, the introverted sensing function helps the ESFJ pause and consider the outcomes of their actions."
+                ],
+                "Tertiary: Extroverted Intuition (Ne)": [
+                    "Extroverted intuition (Ne) is the tertiary function for the ESFJ personality type. This function is important in supporting the dominant Fe function since it helps the ESFJ learn more about the world around them.",
+                    "This cognitive function helps ESFJs make connections and find creative solutions to problems. ESFJs are known to explore the possibilities when looking at a situation. They can often find patterns that allow them to gain insights into people and experiences."
+                ],
+                "Inferior: Introverted Thinking (Ti)": [
+                    "Someone with an ESFJ personality type is organized and likes to plan things out in advance. Planning helps ESFJs feel more in control of the world around them.",
+                    "Introverted thinking (Ti) is the part of the ESFJ's personality that tends to represent their weakest points. This function can help the ESFJ analyze information and make good decisions, but because this function tends to be weaker than their other functions, it means that this is an area where they might also struggle.",
+                    "This aspect of personality helps the ESFJ analyze complex information, but it is often a point of weakness, especially when making sense of abstract or theoretical concepts."
+                ]
             },
-            "relationships": "",
-            "career": []
+            "relationships": "As extroverts, ESFJs love spending time with other people. Not only do they gain energy from social interaction, but they are also genuinely interested in the well-being of others. They are frequently described as warm-hearted and empathetic, and they will often put the needs of others ahead of their own. They typically feel insecure in uncertain or chaotic situations. While this makes ESFJs well suited to positions that involve managing or supervising people, it can also lead to conflicts when they try to control people who do not welcome such direction.",
+            "career": "Because ESFJs enjoy helping others, they often do well in practical settings that involve taking a caregiver role. Social service and healthcare careers are two areas in which ESFJs may excel at applying their helping nature and desire for order. ESFJs have many traits that make them ideally suited to certain careers. For example, their dependability and innate need to take care of others mean that they often do well in jobs that involve supporting and caring for people, such as nursing or teaching."
         },
 
         "ENFP": {
             "name": "The Champion",
             "description": [
-
+                "ENFP is an acronym that stands for Extraverted, Intuitive, Feeling, and Perceiving. The ENFP personality type is one of the 16 different types identified by the Myers-Briggs Type Indicator (MBTI).",
+                "If you're an ENFP, people have probably described you as enthusiastic, charismatic, charming, energetic, and independent. ENFPs are also creative, so they typically do best in situations where they have the freedom to create and innovate.",
+                "ENFP types are very gregarious, love exploring, make empathetic leaders and parents, are highly motivated, and are good at understanding and communicating with people. However, they're oftentimes driven by a lack of self-confidence and have a very difficult time with strong emotions, stress, and conflict, says Christopher Hansen, a licensed professional counselor at Thriveworks in Austin, TX."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": [],
+            "characteristics": ["Good people skills", "Enthusiastic", "Caring", "Charismatic", "Disorganized"],
+            "strengths": ["Warm and enthusiastic", "Empathetic and caring", "Strong people skills", "Strong communication skills", "Fun and spontaneous", "Highly creative"],
+            "weaknesses": ["Needs approval from others", "Disorganized", "Tends to get stressed out easily", "Can be overly emotional", "Overthinks", "Struggles to follow rules"],
             "cognitive": {
-
+                "Dominant: Extraverted Intuition": [
+                    "Extraverted intuition means that ENFPs generally focus on the world of possibilities. They are good at abstract thinking and prefer not to concentrate on tiny details.4 People with this personality type are also inventive and focused on the future.",
+                    "Because of this dominant function, ENFPs are good at seeing things as they could be rather than focusing on what they are. They have a natural tendency to focus on relationships and are skilled at finding patterns and connections between people, situations, and ideas."
+                ],
+                "Auxiliary: Introverted Feeling": [
+                    "When making decisions, ENFPs place a greater value on feelings and values rather than logic and objective criteria. They tend to follow their heart, empathize with others, and let their emotions guide their decisions.",
+                    "ENFPs have a strong desire to be true to themselves and their values. In an ideal world, there would be congruence between that world and their values"
+                ],
+                "Tertiary: Extraverted Thinking": [
+                    "This cognitive function is centered on logically organizing information and ideas. The ENFP may use this function to sort through disparate data to efficiently spot connections. For example, an ENFP might think out loud when working through a problem, laying out all the information to create an easily followed train of thought."
+                ],
+                "Inferior: Introverted Sensing": [
+                    "ENFPs express this function by comparing the things they are experiencing at the moment to past experiences. In doing so, they are often able to call to mind memories, feelings, and senses that they associate with those events. This allows the ENFP to identify patterns and form expectations for future events based on previous experiences."
+                ]
             },
-            "relationships": "",
-            "career": []
+            "relationships": "ENFPs are extraverts, which means that they love spending time with others. As extraverts, they are also naturally upbeat and gregarious. Socializing actually gives an ENFP more energy, helping them to feel more renewed, refreshed, and excited about life. While other types of extraverts tend to dislike solitude, ENFPs do have a need for some alone time. This gives them space to think and reflect. ENFPs tend to be warm and passionate in relationships. They are always seeking growth and ways to make their partnerships stronger. ENFPs also tend to be attentive and spontaneous. Their willingness to take risks can sometimes be stressful for those who love them.",
+            "career": "People with an ENFP personality do best in jobs that offer a lot of flexibility. The relationship of personality style and attention deficit hyperactivity disorder in children. Kans J Med. 2017;10(2):26-29. Because they are empathetic and interested in people, ENFPs also do well in service-oriented careers. They may benefit from avoiding careers that involve completing a lot of detailed, routine tasks. When choosing a career path, it can help to understand the potential strengths and weaknesses of your personality type. At the same time, you should not base your career decisions solely on your MBTI results as this test's reliability and validity are unclear when applied to certain groups."
         },
 
         "ENFJ": {
             "name": "The Giver",
             "description": [
-
+                "ENFJ, also known as the giver or protagonist personality, is one of the 16 personality types identified by the Myers-Briggs Type Indicator (MBTI). ENFJ stands for extraverted, intuitive, feeling, and judging, with each component representing different MBTI categories.",
+                "People with the ENFJ personality type are often described as warm, outgoing, loyal, and sensitive. Some other personality types are known by the acronyms ESFJ, ENFP, INFP, ISFJ, and INTP.",
+                "Of all the personality types, the ENFJ is often perceived as being the strongest people person. They can forge friendships with all personality types, even with more introverted or reticent individuals.",
+                "Because of their ability to sense what others feel and affect how people behave, they do have the ability to influence and even manipulate others. This is balanced by their strong value system and desire to help others be the best they can be. ENFJ is the opposite of the ISTP personality type."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": [],
+            "characteristics": ["Extroverts", "Warm", "Affectionate", "Supportive", "Great at encouraging others"],
+            "strengths": ["Outgoing and warm-hearted", "Empathetic", "Wide social circle", "Encouraging", "Organized", "Affectionate", "Persuasive"],
+            "weaknesses": ["Approval-seeking", "Overly sensitive", "Indecisive", "Self-sacrificing", "Rigid and uncompromising", "Overprotective", "Manipulative"],
             "cognitive": {
+                "Dominant Process (Fe): Extraverted Feeling": [
+                    "The dominant process is your go-to personality preference that you primarily rely on. It is the most developed and conscious aspect of your personality.",
+                    "ENFJs express this mental function through their engaging social behavior and harmonious social relationships. They are in tune with other people's feelings, often to the point that they ignore their own needs in order to please others.",
+                    "People with a protagonist personality place a stronger emphasis on personal, subjective considerations rather than objective criteria when making decisions. How a decision will impact others is often a primary concern."
+                ],
+                "Auxiliary Process (Ni): Introverted Intuition": [
+                    "The second personality preference (auxiliary) is what you rely on next, and it serves to support or balance out the dominant process.",
+                    "As ENFJs take in information about the world, their introverted intuition processes this data in order to create impressions, ideas, and thoughts. This allows them to spot patterns and make sense of complex or abstract data.",
+                    "ENFJs like to think about the future rather than the present. They may often become so focused on the larger goal that they lose sight of the immediate details."
+                ],
+                "Tertiary Process (Se): Extraverted Sensing": [
+                    "The tertiary personality preference in a person is going to be the opposite of the second process and is less developed and less conscious in the ENFJ",
+                    "Extraverted sensing causes ENFJs to take in the present moment, gathering concrete details and sensory information from the environment (sights, sounds, touch, smell, taste, etc.) and act on it. Because of this, they will often seek out novel or interesting experiences and sensations.",
+                    "People with the protagonist personality type tend to be very aware of their present environment. This can lead to a great appreciation of the finer things of life in food, art, music, and culture, and a desire to create a pleasing space."
+                ],
+                "Inferior Process (Ti): Introverted Thinking": [
+                    "The inferior personality process is the opposite of the dominant process and is a source of insecurity or weakness in the ENFJ.",
+                    "With introverted thinking being their last resort, they tend to build their logical system around external factors rather than internal ones. This means they do not have their identity rooted in internal qualities, values, and skills, but rather, they become dependent on the roles they play in the community around them.",
+                    "ENFJs are organized and enjoy structure and careful planning so sticking to a predictable schedule helps ENFJs feel in control of the world around them. However, they tend to rely heavily on the values of the group they are connected to and often work to maintain the status quo when making decisions.",
+                    "Developing this inferior function can help people with this personality type feel more balanced and in control of their decision-making process. Neglecting this aspect of personality can cause you to feel incomplete, leading to unhealthy decisions, poor career choices, and relationship challenges."
+                ]
 
             },
-            "relationships": "",
-            "career": []
+            "relationships": "ENFJs value other people highly and are warm, nurturing, and supportive in personal relationships. At times, they can become very wrapped up in other people's problems. They are altruistic and interested in helping others, which can sometimes come off as a bit overbearing. Despite this, they are usually very well liked and people appreciate their genuine concern and care. As parents, ENFJs are nurturing and warm, although they can sometimes be accused of being so-called helicopter parents. They are directly involved in their children's lives, although they can sometimes be quite strict and even rigid at times. ENFJs have an outgoing personality and enjoy spending time with other people. Being in social settings helps them feel energized. In friendships and other relationships, people typically describe people with a protagonist personality as supportive and fun to be around. They are particularly good at relating to others and are known to help bring out the best in the people with whom they spend their time.",
+            "career": "ENFJs often do best in careers where they get to help other people and spend a great deal of time interacting with others. Because of their strong communication and organizational skills, ENFJs can make great leaders and managers. They are good at organizing activities, helping each group member achieve their potential and resolving interpersonal conflicts. They strive to create harmony in all situations, and always seem to know what to do to ease tensions and minimize disagreements."
         },
 
         "ENTP": {
             "name": "The Debater",
             "description": [
-
+                "ENTP is one of the 16 different personality types identified by the Myers-Briggs Type Indicator. The Myers & Briggs Foundation. The 16 MBTI types. ENTP stands for Extraverted, iNtuitive, Thinking, and Perceiving. People with this personality type are outgoing, imaginative, logical, and adaptable in their approach to life.",
+                "People with the ENTP personality type are often described as innovative, clever, and expressive. ENTPs are also known for being idea-oriented, which is why this personality type has been described as the innovator, the visionary, and the debater.",
+                "ENTPs are less interested in the here-and-now details than in generating ideas and theories. Because of this, they sometimes tend to come up with one idea after another without actually implementing those plans. They are great when it comes to generating ideas, but less skilled at following through."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": [],
+            "characteristics": ["Great Conversationalist", "Tend to Focus on the Big Picture", "Social Butterfly", "Sometimes Struggle to Commit", "Naturally Curious", "Love a Good Debate"],
+            "strengths": ["Innovative", "Creative", "Great conversationalist", "Enjoys debating", "Values knowledge"],
+            "weaknesses": ["Can be argumentative", "Dislikes routines and schedules", "Does not like to be controlled", "Unfocused", "Insensitive"],
             "cognitive": {
-
+                "Dominant: Extroverted Intuition": [
+                    "ENTPs tend to take in information quickly and are very open-minded.4 Once they have gathered this information, they spend time making connections between various complex and interwoven relationships.",
+                    "People with this personality type are good at spotting connections that others might overlook and tend to be focused on possibilities. They have entrepreneurial minds and always come up with new and exciting ideas."
+                ],
+                "Auxiliary: Introverted Thinking": [
+                    "This cognitive function is expressed in the ENTPs thinking process. People with this type of personality are more focused on taking in information about the world around them. When they do use this information to reach conclusions, they tend to be very logical.",
+                    "This function helps the ENTP understand all the information that comes in through the extroverted intuition function. It involves imposing logic and order to help make sense of many disparate ideas and pieces of information. ENTPs don't just want to understand that something works—they want to understand the why and how behind how things function."
+                ],
+                "Tertiary: Extroverted Feeling": [
+                    "As a tertiary function, this aspect of personality may not be as well-developed or prominent, so how it is expressed can vary. When well-developed, ENTPs can be social charmers who are able to get along well with others.",
+                    "When this aspect of personality is weaker, the ENTP may be insensitive to others. That's why people with this type of personality are sometimes seen as aloof or unkind."
+                ],
+                "Inferior: Introverted Sensing": [
+                    "The introverted sensing function is centered on understanding the past and often applying it to current experiences and future concerns.",
+                    "ENTPs also tend to overlook many of the more mundane details of daily life, especially if they are deeply involved in a project or plan."
+                ]
             },
-            "relationships": "",
-            "career": []
+            "relationships": "Since they are identified as extroverts, it may come as no surprise that ENTPs have very good people skills. They are skilled communicators and enjoy interacting with a wide circle of family, friends, and acquaintances. In conversations, other people often find them quick-witted. ENTPs will often engage in debates simply because they enjoy having a good battle of the wits. Their love of debates leads ENTPs to take on the role of the devil's advocate, which can sometimes lead to conflicts with others who feel like they are intentionally combative and antagonistic.",
+            "career": "ENTPs tend to really struggle with anything that involves routines and boredom. They are non-conformists and do best in jobs when they can find excitement and express their creative freedom. ENTPs can be successful in a wide range of careers—as long as they do not feel hemmed in or bored. As debaters with great communication skills, careers in law can offer the challenge and diversity that ENTPs crave. Jobs in the business world that combine the ENTP's rationality, creativity, and natural leadership abilities can also be very rewarding."
         },
 
         "ENTJ": {
             "name": "The Commander",
             "description": [
-
+                "Personality is what makes us unique, but according to the Myers-Briggs Type Indicator (MBTI), our personalities tend to fall into one of 16 distinct types. Each of these types is identified by a four-letter acronym describing key personality traits.1 For the ENTJ personality type, these letters stand for extraverted, intuitive, thinking, and judging. People with this personality type are often described as assertive, confident, and outspoken.",
+                "Sometimes referred to as the Commander, ENTJs tend to be great with people. They have a knack for envisioning the future and place a lot of emphasis on abstract ideas when they are making decisions. You might recognize them as the natural leaders who love to plan ahead.",
+                "The MBTI is one of the most popular personality assessments. It was developed by Isabel Myers and her mother, Katherine Briggs, and is based on Carl Jung's theory of personality types."
             ],
-            "characteristics": [],
-            "strengths": [],
-            "weaknesses": [],
+            "characteristics": ["Great with people", "Future-focused", "Great at planning", "Highly rational"],
+            "strengths": ["Strong leadership skills", "Self-assured", "Well-organized", "Good at making decisions", "Assertive and outspoken", "Strong communication skills"],
+            "weaknesses": ["Impatient", "Stubborn", "Insensitive", "Aggressive", "Intolerant"],
             "cognitive": {
-
+                "Dominant: Extraverted Thinking (Te)": [
+                    "This is an ENTJ preferred function and is expressed through the way they make decisions and judgments",
+                    "ENTJs tend to speak first without listening, making snap judgments before really taking in all the information about a situation.",
+                    "While they tend to make snap judgments, they are also very rational and objective. They are focused on imposing order and standards on the world around them. Setting measurable goals is important."
+                ],
+                "Auxiliary: Introverted Intuition (Ni)": [
+                    "The auxiliary function helps balance a person's personality. Using the dominant function all the time would lead to a one-dimensional personality. The dominant function does act as the primary driver of personality, but the auxiliary function is there to offer support",
+                    "People with this personality type are future-focused and always consider the possibilities when approaching a decision."
+                ],
+                "Tertiary: Extraverted Sensing (Se)": [
+                    "The tertiary function in personality acts as a background support, although it is less prominent that the dominant and auxiliary functions",
+                    "This cognitive function gives ENTJs an appetite for adventure. They enjoy novel experiences and may sometimes engage in thrill-seeking behaviors.",
+                    "Because of their outward sensory focus, they also have an appreciation for beautiful things in life. They often enjoy surrounding themselves with things that they find attractive or interesting."
+                ],
+                "Inferior: Introverted Feeling (Fi)": [
+                    "The inferior function is the weakest part of your personality. That means that it is frequently one of your biggest challenges. Introverted feeling is centered on internal feelings and values.",
+                    "When this aspect of personality is weak, ENTJs may feel uncomfortable or awkward in settings where an emotional response is required."
+                ]
             },
-            "relationships": "",
-            "career": []
+            "relationships": "Since ENTJs are extraverts, they gain energy from socializing (unlike introverts, who expend energy in social situations). They love having passionate and lively conversations and debates. In some cases, other people can feel intimidated by the ENTJs confidence and strong verbal skills. When they have a good idea, people with this personality type feel compelled to share their point of view with others. Expressing emotions can be difficult for them at times, and their tendency to get into debates can make them seem aggressive, argumentative, and confrontational. People can overcome this problem by making a conscious effort to think about how other people might be feeling. They may struggle to understand or get along with more sensitive personality types. While they are extroverts, they are not emotionally expressive and other people may see them as insensitive.",
+            "career": "Thanks to their comfort in the spotlight, ability to communicate, and a tendency to make quick decisions, ENTJs tend to naturally fall into leadership roles. These individuals sometimes find themselves taking control of a group without really knowing how they came to be in such a position. Because of their love for structure and order, the ENTJ is also good at supervising and directing others and helping groups complete tasks and achieve goals. ENTJs do best in careers where there is a lot of structure, but plenty of room for variety. Jobs that allow them to meet and interact with lots of different people are ideal. People with this type bring a lot of desirable skills to the table, including excellent leadership and communication skills, a hard-working attitude, and an ability to plan for the future."
         }
     }
 }
